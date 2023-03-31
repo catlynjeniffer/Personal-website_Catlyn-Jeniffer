@@ -29,15 +29,18 @@ h4 {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: 500;
-    padding: 24px 36px;
-    margin: 36px;
+    padding: 24px 16px;
+    margin: 56px;
     list-style: none;
+    text-decoration: none;
 }
 
 .navbar a:hover {
     color: #E1FF65;
 }
 
-.navbar a:active {
+.navbar a.active {
     color: #E1FF65;
 }
+
+
