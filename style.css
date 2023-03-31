@@ -136,12 +136,19 @@ h2 {
 
 #projects {
     width: 100%;
-    height: 680px;
+    height: 100px;
     display: flex;
-    background-color: white;
+    justify-content: center;
 }
 
-.tag a{
+#tag {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.tag-options a{
     font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: 500;
@@ -149,4 +156,10 @@ h2 {
     margin: 56px;
     list-style: none;
     text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag-options a:active {
+    color: #E1FF65;
 }
