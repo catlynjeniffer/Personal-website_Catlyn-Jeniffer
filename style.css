@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -156,20 +156,30 @@ h2 {
     flex-wrap: wrap;
 }
 
-.gallery {
+#gallery {
     width: 100%;
-    display: block;
     height: 1200px;
-    background-color: white;
+    display: block;
 }
 
-.gallery .gallery-filter {
+#gallery .gallery-filter {
     text-align: center;
+    width: 100%;
+    padding: 0 16px;
 }
 
-.gallery .gallery-filter .filter-item {
+#gallery .gallery-filter .filter-item {
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
+    display: inline-block;
+    margin: 0 12px;
+    align-items: center;
+    cursor: pointer;
 }
+
+#gallery .gallery-filter .filter-item.active {
+    text-decoration: underline #E1FF65 1px;
+}
+
