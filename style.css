@@ -184,6 +184,7 @@ h2 {
 
 #gallery .gallery-filter .filter-item.active {
     border-color: black;
+    padding-bottom: 4px;
 }
 
 img {
@@ -194,6 +195,23 @@ img {
 
 #gallery .gallery-item {
     width: calc(100% / 4);
-    padding: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
+#gallery .gallery-item.hide {
+    display: none;
+}
+
+#gallery .gallery-item.show {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
