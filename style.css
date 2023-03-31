@@ -1,5 +1,5 @@
 body {
-    background-color: #FAF6F1;
+    background-color:#FAF6F1;
 }
 
 header {
@@ -10,9 +10,22 @@ header {
     background-color: black;
     padding: 16px 72px;
     width: 100%;
-    height: 80px;
+    height: 72px;
+}
+
+h4 {
+    color: #E1FF65;
+    font-weight: 700;
 }
 
 .navbar {
     display: flex;
+}
+
+.navbar a{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+    padding: 24px 16px;
+    margin: 8px;
 }
