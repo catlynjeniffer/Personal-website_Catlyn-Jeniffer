@@ -177,9 +177,11 @@ h2 {
     margin: 0 12px;
     align-items: center;
     cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
 }
 
 #gallery .gallery-filter .filter-item.active {
-    text-decoration: underline #E1FF65 1px;
+    border-color: black;
 }
 
