@@ -194,5 +194,6 @@ img {
 
 #gallery .gallery-item {
     width: calc(100% / 4);
+    padding: 20px;
 }
 
