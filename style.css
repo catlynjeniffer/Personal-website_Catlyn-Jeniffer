@@ -229,3 +229,18 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+#blog {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+}
+
+#blog .blog-title {
+        margin: auto;
+}
+
+#blog-post {
+    height: 560px;
+}
