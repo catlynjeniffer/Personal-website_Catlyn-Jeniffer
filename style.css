@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color:#FAF6F1;
 }
@@ -46,6 +47,11 @@ h4 {
     color: #E1FF65;
 }
 
+main {
+    margin-left: 72px;
+    margin-right: 72px;
+}
+
 #hero {
     width: 60%;
     height: 600px;
@@ -58,7 +64,6 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 72px;
     font-weight: 700;
-    margin-left: 72px;
     margin-top: 120px;
     margin-bottom: 20px;
 }
@@ -67,7 +72,6 @@ p {
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 400;
-    margin-left: 72px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -82,13 +86,12 @@ p {
     cursor: pointer;
 }
 
-#hero-button .primary {
+#hero-button .primary-hero {
     background-color: black;
     color: white;
-    margin-left: 72px;
 }
 
-#hero-button .secondary {
+#hero-button .secondary-hero {
     background-color: white;
     border: 1px solid black;
     margin-left: 40px;
@@ -96,12 +99,9 @@ p {
 
 #about-me {
     height: 400px;
-    margin-left: 72px;
-    margin-right: 72px;
     width: 100%;
     background-color: #E1FF65;
     display: flex;
-    justify-content: space-between;
 }
 
 h2 {
@@ -116,4 +116,18 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
     font-weight: 500;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+#about-me .primary-about-me {
+    padding: 16px 24px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
