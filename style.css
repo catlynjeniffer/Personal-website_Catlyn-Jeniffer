@@ -73,14 +73,23 @@ p {
 }
 
 #hero-button button {
-    padding: 24px 16px;
+    padding: 16px 24px;
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
     border: none;
+    cursor: pointer;
 }
 
 #hero-button .primary {
     background-color: black;
+    color: white;
+    margin-left: 72px;
+}
+
+#hero-button .secondary {
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 40px;
 }
