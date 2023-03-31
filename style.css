@@ -29,7 +29,8 @@ h4 {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: 500;
-    margin: 72px;
+    padding: 24px 36px;
+    margin: 36px;
     list-style: none;
 }
 
@@ -37,4 +38,6 @@ h4 {
     color: #E1FF65;
 }
 
-
+.navbar a:active {
+    color: #E1FF65;
+}
