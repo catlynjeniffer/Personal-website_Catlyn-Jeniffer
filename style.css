@@ -166,6 +166,7 @@ h2 {
     text-align: center;
     width: 100%;
     padding: 0 16px;
+    margin-bottom: 40px;
 }
 
 #gallery .gallery-filter .filter-item {
@@ -188,7 +189,7 @@ h2 {
 img {
     width: 309px;
     height: 309px;
-    
+    vertical-align: middle;
 }
 
 #gallery .gallery-item {
