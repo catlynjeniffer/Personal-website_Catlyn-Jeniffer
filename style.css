@@ -63,7 +63,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-#hero-greeting .hero-paragraph {
+p {
     font-family: 'Raleway', sans-serif;
     font-size: 48px;
     font-weight: 400;
@@ -102,5 +102,18 @@ h1 {
     background-color: #E1FF65;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+#about-me .about-me-paragraph {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
 }
