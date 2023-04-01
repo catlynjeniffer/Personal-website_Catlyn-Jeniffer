@@ -93,8 +93,8 @@ p {
 }
 
 #hero-button .secondary-hero {
-    background-color: white;
     border: 1px solid black;
+    background-color: #FAF6F1;
     margin-left: 40px;
 }
 
@@ -103,6 +103,7 @@ p {
     width: 100%;
     background-color: #E1FF65;
     display: flex;
+    box-shadow: 16px 16px black;
 }
 
 h2 {
@@ -147,7 +148,6 @@ h2 {
 }
 
 .container {
-    max-width: 1296px;
     margin: auto;
 }
 
@@ -158,7 +158,7 @@ h2 {
 
 #gallery {
     width: 100%;
-    height: 1200px;
+    height: 1160px;
     display: block;
 }
 
@@ -226,7 +226,6 @@ img {
     cursor: pointer;
     background-color: black;
     color: white;
-    justify-content: center;
     align-items: center;
 }
 
@@ -242,5 +241,75 @@ img {
 }
 
 #blog-post {
-    height: 560px;
+    width: 100%;
+    height: 320px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    width: 100%;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 408px;
+    height: 200px;
+    border: 1px solid black;
+    transition: 0.5s;
+    margin-right: 24px;
+    margin-bottom: 20px;
+    padding: 40px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+#blog-post .blog-paragraph {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#blog-post .blog-date {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+
+#blog-post .primary-blog-post {
+    padding: 16px 24px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E1FF65;
+    width: 100%;
+    height: 240px;
 }
