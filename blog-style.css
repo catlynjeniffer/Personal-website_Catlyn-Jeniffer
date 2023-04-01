@@ -145,6 +145,7 @@ main {
     padding: 32px;
     cursor: pointer;
     background-color: white;
+    text-decoration: none;
 }
 
 .card a{
