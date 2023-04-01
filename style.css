@@ -48,12 +48,12 @@ h4 {
     color: #E1FF65;
 }
 
-.menu a {
+#menu-icon {
     font-size: 24px;
     color: white;
     cursor: pointer;
-    display: none;
     z-index: 10001;
+    display: none;
     margin-right: 72px;
 }
 
@@ -68,7 +68,7 @@ h4 {
 }
 
 @media (max-width:1090px){
-    .menu a {
+    #menu-icon {
         display: block;
     }
     .navbar {
@@ -92,10 +92,15 @@ h4 {
         transition: all .50s ease;
     }
     .navbar.open {
-        right: 4$;
+        right: 4%;
     }
 }
-    
+
+@media (max-width:768px){
+    h4 {
+        font-size: 12px;
+    }
+}
 
 main {
     margin-left: 72px;
