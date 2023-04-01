@@ -23,7 +23,7 @@ h4 {
     color: #E1FF65;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    margin: 30px 72px;
+    margin: 40px 72px;
 }
 
 .navbar {
@@ -47,6 +47,55 @@ h4 {
 .navbar a.active {
     color: #E1FF65;
 }
+
+.menu a {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: none;
+    z-index: 10001;
+    margin-right: 72px;
+}
+
+@media (max-width:1440px){
+    header {
+        transition: .2s;
+    }
+    .navbar a {
+        padding: 5px 0;
+        margin: 0px 32px;
+    }
+}
+
+@media (max-width:1090px){
+    .menu a {
+        display: block;
+    }
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 272px;
+        height: 220px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        transition: all .50s ease;
+        text-decoration: none;
+        list-style: none;
+    }
+    .navbar a {
+        display: block;
+        margin: 12px 0;
+        padding: 0px 24px;
+        transition: all .50s ease;
+    }
+    .navbar.open {
+        right: 4$;
+    }
+}
+    
 
 main {
     margin-left: 72px;
