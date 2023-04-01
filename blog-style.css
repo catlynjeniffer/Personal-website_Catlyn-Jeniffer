@@ -134,6 +134,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+
 .card {
     width: 408px;
     height: 200px;
@@ -144,6 +145,10 @@ main {
     padding: 32px;
     cursor: pointer;
     background-color: white;
+}
+
+.card a{
+    text-decoration: none;
 }
 
 .card:hover {

@@ -118,7 +118,7 @@ main {
     margin-bottom: 80px;
 }
 
-#content {
+#sub-title {
 margin: auto;
 }
 
@@ -130,7 +130,7 @@ p {
     margin-top: 88px;
 }
 
-#content .notes {
+#sub-title .notes {
     text-align: center;
     justify-content: center;
     font-family: 'Raleway', sans-serif;
@@ -138,3 +138,18 @@ p {
     font-weight: 400;
     color: grey;
 }
+
+#content .content-text {
+    width: 100%;
+    height: 1100px;
+}
+
+#content .content-text-paragraph {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+
