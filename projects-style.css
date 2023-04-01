@@ -155,7 +155,7 @@ h2 {
 #gallery .gallery-item-inner {
     width: 309px;
     height: 500px;
-    border: 1px solid #E1FF65;
+    border: 1px solid black;
     background-color: white;
 }
 
@@ -172,7 +172,7 @@ img {
     width: 309px;
     height: 309px;
     vertical-align: middle;
-    border: 1px solid #E1FF65;
+    border: 1px solid black;
 }
 
 #gallery .gallery-item {

@@ -324,6 +324,10 @@ img {
     background-color: white;
 }
 
+.card a {
+    text-decoration: none;
+}
+
 .card:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
