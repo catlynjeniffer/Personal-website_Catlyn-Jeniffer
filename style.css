@@ -52,8 +52,8 @@ h4 {
     font-size: 24px;
     color: white;
     cursor: pointer;
-    z-index: 10001;
     display: none;
+    z-index: 10001;
     margin-right: 72px;
 }
 
@@ -93,12 +93,6 @@ h4 {
     }
     .navbar.open {
         right: 4%;
-    }
-}
-
-@media (max-width:768px){
-    h4 {
-        font-size: 12px;
     }
 }
 
@@ -245,6 +239,7 @@ img {
     width: 309px;
     height: 309px;
     vertical-align: middle;
+    justify-content: space-between;
 }
 
 #gallery .gallery-item {
@@ -270,9 +265,16 @@ img {
     }
 }
 
+.button-gallery {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #gallery .primary-gallery {
     padding: 16px 24px;
-    margin-top: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -280,7 +282,6 @@ img {
     cursor: pointer;
     background-color: black;
     color: white;
-    align-items: center;
 }
 
 #blog {
@@ -345,9 +346,16 @@ h3 {
     color: gray;
 }
 
+.button-blog-post{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #blog-post .primary-blog-post {
     padding: 16px 24px;
-    margin-top: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -355,7 +363,6 @@ h3 {
     cursor: pointer;
     background-color: black;
     color: white;
-    align-items: center;
 }
 
 footer {
