@@ -68,9 +68,15 @@ main {
     grid-template-columns: 1fr 1fr;
 }
 
-img {
-    height: 920px;
+.img-container {
     width: 640px;
+    height: 920px;
+    padding-top: 160px;
+}
+
+img {
+    height: 697px;
+    width: 528px;
     border: 1px solid black;
     box-shadow: 16px 16px #E1FF65;
 }
