@@ -128,7 +128,6 @@ main {
 
 .container2 {
     width: 100%;
-    justify-content: center;
 }
 
 .row2 {
@@ -204,7 +203,7 @@ footer {
     height: 240px;
     padding: 40px;
     text-align: center;
-    margin-top: auto;
+    margin-top: 40px;
 }
 
 .social {
