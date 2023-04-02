@@ -63,18 +63,17 @@ main {
     margin-right: 72px;
 }
 
-.container {
-    width: 100%;
-    height: 1008px;
+#about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .img-container {
     width: 680px;
     height: 920px;
-    float: left;
     padding-top: 160px;
     padding-bottom: 40px;
-    padding-left: 72px;
 }
 
 img {
@@ -88,7 +87,6 @@ img {
     width: 640px;
     height: 920px;
     padding-top: 160px;
-    float: left;
     padding-bottom: 40px;
 }
 
@@ -110,7 +108,7 @@ p {
 }
 
 .skills-container {
-    width: 688px;
+    width: 640px;
     height: 346px;
 }
 
