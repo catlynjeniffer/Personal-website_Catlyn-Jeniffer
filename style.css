@@ -272,6 +272,7 @@ img {
 .row2 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card {
     width: 408px;
