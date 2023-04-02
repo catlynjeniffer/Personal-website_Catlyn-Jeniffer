@@ -142,7 +142,6 @@ img {
     align-items: center;
     padding-bottom: 20px;
     padding-right: 20px;
-    justify-items: center;
 }
 
 #gallery .gallery-item.hide {
@@ -199,6 +198,7 @@ footer {
     height: 240px;
     padding: 40px;
     text-align: center;
+    margin-top: 40px;
 }
 
 .social {
