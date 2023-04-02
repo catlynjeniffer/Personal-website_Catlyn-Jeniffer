@@ -438,6 +438,9 @@ footer {
     p {
         font-size: 36px;
     }
+    #about-me {
+        height: 120%;
+    }
     #about-me .about-me-paragraph{
         font-size: 21px;
         width: 400px;
@@ -464,4 +467,5 @@ footer {
     #about-me .about-me-paragraph{
         font-size: 18px;
         width: 200px;
-} 
+    }
+}
