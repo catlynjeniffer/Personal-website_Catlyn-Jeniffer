@@ -63,17 +63,15 @@ main {
     margin-right: 72px;
 }
 
-#about-me {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .img-container {
-    width: 680px;
+    width: 640px;
     height: 920px;
     padding-top: 160px;
-    padding-bottom: 40px;
 }
 
 img {
@@ -87,7 +85,6 @@ img {
     width: 640px;
     height: 920px;
     padding-top: 160px;
-    padding-bottom: 40px;
 }
 
 h2 {
@@ -150,11 +147,10 @@ li {
 
 .button-about {
     width: 100%;
-    align-items: center;
     text-align: right;
 }
 
-.about-me .button-about-primary {
+.button-about-primary {
     padding: 16px 24px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
@@ -163,8 +159,7 @@ li {
     cursor: pointer;
     background-color: black;
     color: white;
-    margin-bottom: 40px;
-    margin-right: 72px;
+    margin-top: 20px;
 }
 
 footer {
