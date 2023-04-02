@@ -165,6 +165,7 @@ h2 {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #gallery {
@@ -202,7 +203,6 @@ img {
     height: 309px;
     vertical-align: middle;
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 
@@ -343,6 +343,7 @@ footer {
     height: 240px;
     padding: 40px;
     text-align: center;
+    margin-top: 40px;
 }
 
 .social {
@@ -439,6 +440,7 @@ footer {
     }
     #about-me .about-me-paragraph{
         font-size: 21px;
+        width: 400px;
     }
     #gallery .gallery-item {
         width: 50%;
@@ -459,4 +461,7 @@ footer {
     p {
         font-size: 28px;
     }
+    #about-me .about-me-paragraph{
+        font-size: 18px;
+        width: 200px;
 } 
