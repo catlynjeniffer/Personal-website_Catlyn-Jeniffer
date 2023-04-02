@@ -6,6 +6,7 @@
 
 body {
     background-color:#FAF6F1;
+    min-height: 100vh;
 }
 
 header {
@@ -174,6 +175,7 @@ footer {
     height: 240px;
     padding: 40px;
     text-align: center;
+    margin-top: 40px;
 }
 
 .social {
