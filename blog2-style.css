@@ -209,8 +209,8 @@ footer {
         font-size: 16px;
         padding-top: 32px;
     }
-    .content-text-paragraph {
-        font-size: 21px;
+    #content .content-text-paragraph {
+        font-size: 16px;
     }
     h4 {
         font-size: 14px;
@@ -219,5 +219,15 @@ footer {
     @media (max-width: 767px){
         h4 {
             font-size: 10px;
+        }
+        #blog .blog-title {
+            font-size: 28px;
+        }
+        .sub-title-text {
+            font-size: 14px;
+            padding-top: 20px;
+        }
+        #content .content-text-paragraph {
+            font-size: 12px;
         }
     }

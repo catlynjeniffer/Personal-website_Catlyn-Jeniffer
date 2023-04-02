@@ -297,4 +297,8 @@ footer {
         h4 {
             font-size: 10px;
         }
+        #gallery .gallery-item {
+            width: 100%;
+            justify-content: center;
+        }
     }
