@@ -257,7 +257,13 @@ footer {
         right: 4%;
     }
     img {
-        width: 60%;
+        width: 55%;
         height: 60%;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 21px;
     }
 }

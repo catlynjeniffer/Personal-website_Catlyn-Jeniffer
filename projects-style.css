@@ -284,4 +284,7 @@ footer {
     #gallery .gallery-item {
         width: 50%;
     }
+    h2 {
+        font-size: 36px;
+    }
 }
