@@ -128,6 +128,7 @@ main {
 
 .container2 {
     width: 100%;
+    justify-content: center;
 }
 
 .row2 {
