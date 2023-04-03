@@ -158,8 +158,16 @@ main {
     text-decoration: none;
 }
 
-.card a{
+a:link {
     text-decoration: none;
+}
+
+.card-heading {
+    color: black;
+}
+
+.card-description {
+    color: black;
 }
 
 .card:hover {

@@ -166,7 +166,6 @@ h2 {
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 #gallery {
@@ -276,6 +275,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .card {
     width: 408px;
     height: 200px;
@@ -286,10 +286,6 @@ img {
     padding: 32px;
     cursor: pointer;
     background-color: white;
-}
-
-.card a {
-    text-decoration: none;
 }
 
 .card:hover {
