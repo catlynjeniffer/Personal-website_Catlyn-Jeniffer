@@ -288,6 +288,18 @@ img {
     background-color: white;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+.card-heading {
+    color: black;
+}
+
+.card-description {
+    color: black;
+}
+
 .card:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
