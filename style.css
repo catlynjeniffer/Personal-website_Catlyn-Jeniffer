@@ -160,6 +160,7 @@ h2 {
 
 .container {
     margin: auto;
+    max-width: 1296px;
 }
 
 .row {
@@ -171,6 +172,7 @@ h2 {
 #gallery {
     width: 100%;
     display: block;
+    min-height: 100vh;
 }
 
 #gallery .gallery-filter {
@@ -206,7 +208,7 @@ img {
     justify-content: space-between;
 }
 
-.gallery-item {
+#gallery .gallery-item {
     width: calc(100% / 4);
     padding-bottom: 20px;
 }
