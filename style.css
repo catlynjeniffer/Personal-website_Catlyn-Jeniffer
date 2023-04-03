@@ -203,10 +203,10 @@ img {
     height: 309px;
     vertical-align: middle;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-#gallery .gallery-item {
+.gallery-item {
     width: calc(100% / 4);
     padding-bottom: 20px;
 }
